@@ -1,4 +1,4 @@
-#!/usr/local/bin/php-5.3
+#!/usr/bin/php5
 
 <?php
 
@@ -18,9 +18,9 @@ $config = array(
 	'home_dir'           => '/path/to/home/directory',
 	's3_key'             => 'OMGTHISISMYKEY',
 	's3_secret'          => 'PLEASEDONTSHARETHISSECRETKEYWITHANYONE',
-	'bucket'             => 'mr-bucket-rules',
+	'bucket'             => 'backups',
 	'chunk_size_in_MB'   => 10,
-	'remote_backup_days' => 10
+	'remote_backup_days' => 30
 );
 
 $sites = array(
